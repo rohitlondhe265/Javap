@@ -38,14 +38,5 @@ public class SlidingWindow {
         int ans[] = findSum(arr, k, n);
         System.out.println((ans[0]+1) + " " + (ans[1]+1));
 
-        // int currSum = 0;
-        // for(int i=0; i<n; i++) {
-        //     for(int j=0; j<n; j++) {
-        //         currSum += arr[j];
-        //         if(currSum == k) System.out.println(i + " " + j);
-        //         else if(currSum < k) currSum += arr[j];
-        //         else break;
-        //     }
-        // }
     }
 } 
